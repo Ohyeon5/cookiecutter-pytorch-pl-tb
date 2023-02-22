@@ -2,7 +2,7 @@
 
 [![Documentation Status][docs_badge]][documentation]
 
-Minimal [Cookiecutter] template for the projects using [pytorch], [pytorch-lightning], and [tensorboard]. This cookiecutter is developed using [pytest-dev
+Minimal [Cookiecutter] template for the projects using [pytorch], [pytorch-lightning], and [tensorboard]. This cookiecutter is developed by forking [pytest-dev
 /cookiecutter-pytest-plugin] as a boilerplate.
 
 > This template requires [Cookiecutter 1.4.0 "Shortbread"][Shortbread] or
