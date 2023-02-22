@@ -62,6 +62,7 @@ pytest-awesome/
 ## Features
 
 - Installable [PyPI] package featuring a `setup.py`.
+- Boiler plates for [pytorch], [pytorch-lightning], and [tensorboard] based deep learning project
 - Test suite running [tox] and [pytest] that makes sure your plugin is working
   as expected
 - Working example code for a fixture, a cli option, as well as a pytest.ini
@@ -72,23 +73,6 @@ pytest-awesome/
 - Optional documentation with either [Sphinx] or [MkDocs]
 - Choose from several licenses, such as [MIT], [BSD-3], [Apache v2.0], [GNU GPL
   v3.0], or [MPL v2.0]
-
-## Requirements to Submit a Plugin
-
-If you plan on submitting your plugin to the [pytest-dev organization] you need
-to meet the following requirements:
-
--   PyPI presence with a setup.py that contains a license, pytest-
-    prefixed, version number, authors, short and long description.
--   a tox.ini for running tests using tox.
--   a README describing how to use the plugin and on which platforms
-    it runs.
--   a LICENSE file or equivalent containing the licensing information,
-    with matching info in setup.py.
--   an issue tracker unless you rather want to use the core pytest
-    issue tracker.
-
-Please see the official guidelines at [Submit a Plugin].
 
 ## Resources
 
@@ -129,7 +113,7 @@ Plugin is free and open source software.
   [Submit a Plugin]: https://docs.pytest.org/en/latest/contributing.html#submitting-plugins-to-pytest-dev
   [pytest hook reference]: https://docs.pytest.org/en/latest/writing_plugins.html#pytest-hook-reference
   [MIT license]: http://opensource.org/licenses/MIT
-  [file an issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
+  [file an issue]: https://github.com/Ohyeon5/cookiecutter-pytorch-pl-tb/issues
   [Sphinx]: http://sphinx-doc.org/
   [MkDocs]: http://www.mkdocs.org/
   [MIT]: http://opensource.org/licenses/MIT

@@ -48,8 +48,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'pytest-{{cookiecutter.plugin_name}}'
-copyright = '2015, {{cookiecutter.full_name}}'
+project = '{{cookiecutter.plugin_name}}'
+copyright = '2023, {{cookiecutter.full_name}}'
 author = '{{cookiecutter.full_name}}'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -224,7 +224,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'pytest-cookiecutterplugin_name.tex', 'pytest-\\{\\{cookiecutter.plugin\\_name\\}\\} Documentation',
+  (master_doc, 'cookiecutterplugin_name.tex', '\\{\\{cookiecutter.plugin\\_name\\}\\} Documentation',
    '\\{\\{cookiecutter.full\\_name\\}\\}', 'manual'),
 ]
 
@@ -254,7 +254,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pytest-cookiecutterplugin_name', 'pytest-{{cookiecutter.plugin_name}} Documentation',
+    (master_doc, 'cookiecutterplugin_name', '{{cookiecutter.plugin_name}} Documentation',
      [author], 1)
 ]
 
@@ -268,8 +268,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'pytest-cookiecutterplugin_name', 'pytest-{{cookiecutter.plugin_name}} Documentation',
-   author, 'pytest-cookiecutterplugin_name', 'One line description of project.',
+  (master_doc, 'cookiecutterplugin_name', '{{cookiecutter.plugin_name}} Documentation',
+   author, 'cookiecutterplugin_name', 'One line description of project.',
    'Miscellaneous'),
 ]
 

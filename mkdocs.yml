@@ -1,10 +1,10 @@
-site_name: cookiecutter-pytest-plugin
-site_description: Minimal Cookiecutter template for authoring pytest plugins.
-site_author: Raphael Pierzina
+site_name: cookiecutter-pytorch-pl-tb
+site_description: Minimal Cookiecutter template for authoring pytorch-pytorchlightning-tensorboard.
+site_author: Oh-hyeon Choung
 
 theme: readthedocs
 
-repo_url: https://github.com/pytest-dev/cookiecutter-pytest-plugin
+repo_url: https://github.com/Ohyeon5/cookiecutter-pytorch-pl-tb
 
 pages:
 - Home: index.md
