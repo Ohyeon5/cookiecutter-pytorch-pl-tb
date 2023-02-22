@@ -1,9 +1,9 @@
-# cookiecutter-pytest-plugin
+# cookiecutter-pytorch-pl-tb
 
 [![Documentation Status][docs_badge]][documentation]
 
-Minimal [Cookiecutter] template for authoring [pytest] plugins that help
-you to write better programs.
+Minimal [Cookiecutter] template for the projects using [pytorch], [pytorch-lightning], and [tensorboard]. This cookiecutter is developed using [pytest-dev
+/cookiecutter-pytest-plugin] as a boilerplate.
 
 > This template requires [Cookiecutter 1.4.0 "Shortbread"][Shortbread] or
 > higher
@@ -14,15 +14,15 @@ Install [Cookiecutter] and generate a new pytest plugin project:
 
 ```no-highlight
 $ pip install cookiecutter
-$ cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin
+$ cookiecutter https://github.com/Ohyeon5/cookiecutter-pytorch-pl-tb
 ```
 
 Cookiecutter prompts you for information regarding your plugin:
 
 ```no-highlight
-full_name [Raphael Pierzina]: Andreas Pelme
-email [raphael@hackebrot.de]: andreas@pelme.se
-github_username [hackebrot]: pelme
+full_name [Ohhyeon Choung]: your_first_name your_last_name
+email [ohhyeon.choung@gmail.com]: your_user@example.com
+github_username [Ohyeon5]: your_username
 plugin_name [foobar]: awesome
 module_name [awesome]: awesome
 short_description [A simple plugin to use with pytest]:
@@ -142,3 +142,8 @@ Plugin is free and open source software.
   [Shortbread]: https://github.com/audreyr/cookiecutter/releases/tag/1.4.0
   [osi_certified]: https://opensource.org/trademarks/osi-certified/web/osi-certified-120x100.png
   [OSI]: https://opensource.org/
+  [pytorch]: https://pytorch.org/
+  [pytorch-lightning]: https://www.pytorchlightning.ai/
+  [tensorboard]: https://www.tensorflow.org/tensorboard
+  [pytest-dev
+/cookiecutter-pytest-plugin]: https://github.com/pytest-dev/cookiecutter-pytest-plugin

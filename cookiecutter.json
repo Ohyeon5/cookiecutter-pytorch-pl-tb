@@ -1,10 +1,10 @@
 {
-    "full_name": "Raphael Pierzina",
-    "email": "raphael@hackebrot.de",
-    "github_username": "hackebrot",
+    "full_name": "Ohhyeon Choung",
+    "email": "ohhyeon.choung@gmail.com",
+    "github_username": "Ohyeon5",
     "plugin_name": "foobar",
     "module_name": "{{ cookiecutter.plugin_name|lower|replace('-', '_') }}",
-    "short_description": "A simple plugin to use with pytest",
+    "short_description": "A simple plugin to make pytorch-pl projects",
     "version": "0.1.0",
     "pytest_version": "3.5.0",
     "docs_tool": [
